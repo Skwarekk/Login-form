@@ -1,0 +1,22 @@
+:root {
+  --color-dark: #361999;
+  --color-light: #78fff1;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(
+    to top right,
+    var(--color-dark),
+    var(--color-light)
+  );
+  font-family: Helvetica, sans-serif;
+  font-size: 24px;
+  height: 100vh;
+  width: 100vw;
+}
